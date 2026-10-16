@@ -1,0 +1,70 @@
+# 주말 항공권 감시 설정
+
+# 검색 기간 (귀국일이 이 날짜 이하인 주말만 검색)
+end_date: 2026-12-31
+
+# 인원 (Google Flights 가격은 전체 인원 합산 금액으로 나옴)
+passengers:
+  adults: 2
+  children: 1
+
+# 3명 왕복 총액 상한 (원)
+budget_krw: 1000000
+
+# 편도 최대 비행시간 (분), 직항만
+max_duration_minutes: 240
+
+# 일정 종류
+trips:
+  - name: "1박2일"
+    depart_weekday: sat
+    min_depart_hour: 0
+  - name: "2박3일"
+    depart_weekday: fri
+    min_depart_hour: 18  # 금요일 18시 이후 출발
+
+# 이미 알린 항공편은 이 비율 이상 싸졌을 때만 다시 알림
+renotify_drop_ratio: 0.05
+
+# 요청 설정
+workers: 3            # 동시 요청 수
+request_delay_sec: 1.0
+shards: 1             # 2 이상이면 목적지를 나눠 실행마다 순환 검색
+
+origins:
+  ICN:
+    name: 인천
+    destinations: [NRT, HND, KIX, NGO, FUK, CTS, OKA, KOJ, KMJ, OIT, NGS, KKJ, HIJ, TAK, MYJ, OKJ, SDJ, KMQ,
+                   TPE, KHH, HKG, MFM, PVG, TAO, PEK, DLC]
+  CJJ:
+    name: 청주
+    destinations: [NRT, KIX, NGO, FUK, CTS, OKA, KMJ, TPE, HKG, PVG, DLC]
+
+# 공항 정보: 도시명, 일본 여부 (일본이 알림 상단에 표시됨)
+airports:
+  NRT: {city: 도쿄(나리타), japan: true}
+  HND: {city: 도쿄(하네다), japan: true}
+  KIX: {city: 오사카, japan: true}
+  NGO: {city: 나고야, japan: true}
+  FUK: {city: 후쿠오카, japan: true}
+  CTS: {city: 삿포로, japan: true}
+  OKA: {city: 오키나와, japan: true}
+  KOJ: {city: 가고시마, japan: true}
+  KMJ: {city: 구마모토, japan: true}
+  OIT: {city: 오이타, japan: true}
+  NGS: {city: 나가사키, japan: true}
+  KKJ: {city: 기타큐슈, japan: true}
+  HIJ: {city: 히로시마, japan: true}
+  TAK: {city: 다카마쓰, japan: true}
+  MYJ: {city: 마쓰야마, japan: true}
+  OKJ: {city: 오카야마, japan: true}
+  SDJ: {city: 센다이, japan: true}
+  KMQ: {city: 고마쓰, japan: true}
+  TPE: {city: 타이베이, japan: false}
+  KHH: {city: 가오슝, japan: false}
+  HKG: {city: 홍콩, japan: false}
+  MFM: {city: 마카오, japan: false}
+  PVG: {city: 상하이, japan: false}
+  TAO: {city: 칭다오, japan: false}
+  PEK: {city: 베이징, japan: false}
+  DLC: {city: 다롄, japan: false}

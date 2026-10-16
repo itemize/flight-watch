@@ -1,0 +1,45 @@
+name: 항공권 검색
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"   # 4시간마다 (UTC 0,4,8,... = KST 9,13,17,21,1,5시)
+  workflow_dispatch:
+    inputs:
+      budget:
+        description: "예산 덮어쓰기 (테스트용, 비우면 config 값)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: flight-search
+  cancel-in-progress: false
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: 검색
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BUDGET: ${{ github.event.inputs.budget }}
+        run: python -m flightwatch.main ${BUDGET:+--budget "$BUDGET"}
+
+      - name: 알림 기록 저장
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/notified.json
+          git diff --cached --quiet || (git commit -m "알림 기록 갱신" && git push)
