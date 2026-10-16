@@ -39,6 +39,17 @@ def test_best_deal_filters():
     assert best_deal(t, "ICN", "KIX", outs, backs, 600_000, 240, True) is None
 
 
+def test_best_deal_same_airline():
+    t = Trip("1박2일", date(2026, 11, 21), date(2026, 11, 22), 0)
+    outs = [leg(100_000, fno="7C1"), leg(300_000, fno="MM2")]
+    backs = [leg(500_000, fno="7C3"), leg(200_000, fno="MM4"), leg(50_000, fno="RS5")]
+    mixed = best_deal(t, "ICN", "KIX", outs, backs, 10**7, 240, True)
+    assert (mixed.out.flight_no, mixed.back.flight_no) == ("7C1", "RS5")
+    same = best_deal(t, "ICN", "KIX", outs, backs, 10**7, 240, True, same_airline=True)
+    assert (same.out.flight_no, same.back.flight_no) == ("MM2", "MM4") and same.total == 500_000
+    assert best_deal(t, "ICN", "KIX", outs[:1], backs[1:], 10**7, 240, True, same_airline=True) is None
+
+
 def test_sort_japan_first():
     t = Trip("1박2일", date(2026, 11, 21), date(2026, 11, 22), 0)
     jp = best_deal(t, "ICN", "KIX", [leg(400_000)], [leg(400_000)], 10**7, 240, True)

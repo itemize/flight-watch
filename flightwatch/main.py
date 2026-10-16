@@ -108,7 +108,8 @@ def main() -> int:
             out_legs: list[Leg] = outs.get((o, d, t.depart.isoformat(), t.min_depart_hour), [])
             back_legs: list[Leg] = backs.get((d, o, t.ret.isoformat(), 0), [])
             deal = best_deal(t, o, d, out_legs, back_legs, budget, max_dur,
-                             japan=bool(airports.get(d, {}).get("japan")))
+                             japan=bool(airports.get(d, {}).get("japan")),
+                             same_airline=bool(cfg.get("same_airline", False)))
             if deal:
                 deals.append(deal)
     deals = sort_deals(deals)

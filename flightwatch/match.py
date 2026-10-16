@@ -28,17 +28,29 @@ def ok_leg(leg: Leg, max_duration: int, min_depart_hour: int = 0) -> bool:
     return leg.duration <= max_duration and leg.dep_hour >= min_depart_hour
 
 
+def airline_code(leg: Leg) -> str:
+    """편명 앞 2자리 (예: 7C1305 → 7C). 편명이 없으면 항공사 이름."""
+    return leg.flight_no[:2] if leg.flight_no else leg.airline
+
+
 def best_deal(trip: Trip, origin: str, dest: str, outs: list[Leg], backs: list[Leg],
-              budget: int, max_duration: int, japan: bool) -> Deal | None:
+              budget: int, max_duration: int, japan: bool, same_airline: bool = False) -> Deal | None:
     """조건에 맞는 가장 싼 왕복 조합 하나 (없으면 None)."""
     outs = [l for l in outs if ok_leg(l, max_duration, trip.min_depart_hour)]
     backs = [l for l in backs if ok_leg(l, max_duration)]
-    if not outs or not backs:
-        return None
-    out = min(outs, key=lambda l: (l.price, l.dep_time))
-    back = min(backs, key=lambda l: (l.price, -int(l.dep_time.replace(":", ""))))  # 같은 값이면 늦게 오는 편
-    deal = Deal(trip, origin, dest, out, back, japan)
-    return deal if deal.total <= budget else None
+    pick_out = lambda ls: min(ls, key=lambda l: (l.price, l.dep_time))
+    pick_back = lambda ls: min(ls, key=lambda l: (l.price, -int(l.dep_time.replace(":", ""))))  # 같은 값이면 늦게 오는 편
+
+    if same_airline:
+        candidates = []
+        for code in {airline_code(l) for l in outs} & {airline_code(l) for l in backs}:
+            candidates.append(Deal(trip, origin, dest,
+                                   pick_out([l for l in outs if airline_code(l) == code]),
+                                   pick_back([l for l in backs if airline_code(l) == code]), japan))
+        deal = min(candidates, key=lambda d: d.total, default=None)
+    else:
+        deal = Deal(trip, origin, dest, pick_out(outs), pick_back(backs), japan) if outs and backs else None
+    return deal if deal and deal.total <= budget else None
 
 
 def sort_deals(deals: list[Deal]) -> list[Deal]:
