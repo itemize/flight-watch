@@ -13,6 +13,14 @@
 
 가는 편과 오는 편을 편도로 각각 검색해서 가장 싼 조합을 합산합니다. 노선·주말·일정별로 가장 싼 조합 하나만 알리고, 한 번 알린 건 **5% 이상 더 싸졌을 때만** 다시 알립니다 (`state/notified.json`).
 
+## 항공사 특가 소식
+같은 실행 때 Google 뉴스에서 국내외 항공사(제주항공·진에어·트리니티·에어서울·에어부산·이스타·에어로케이·피치 등)의 특가·세일 기사를 찾아 텔레그램으로 보냅니다.
+- 항공사 사이트는 봇 차단이 많아서 뉴스 기사로 대신 찾습니다. 특가 공지 후 기사가 나오기까지 보통 반나절~하루 걸립니다.
+- 같은 행사 기사는 항공사별로 묶어서 한 번만 보내고, 한 항공사 소식을 보낸 뒤 3일(`cooldown_days`)은 그 항공사 기사를 건너뜁니다.
+- 일본·청주·인천이 제목에 있으면 ⭐ 표시와 함께 위쪽에 나옵니다.
+- `config.yaml`의 `sales_news`에서 항공사·키워드·제외어를 바꾸거나 `enabled: false`로 끌 수 있습니다.
+- 기록: `state/sales_seen.json`
+
 ## 설정 방법
 
 ### 1. 텔레그램 봇 만들기
@@ -39,6 +47,7 @@ Actions 탭 → **항공권 검색** → Run workflow. `budget`에 `3000000`처�
 ```bash
 pip install -r requirements.txt
 python -m flightwatch.main --dry-run --dest KIX --limit-weekends 2
+python -m flightwatch.sales --dry-run
 pytest
 ```
 

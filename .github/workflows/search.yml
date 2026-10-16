@@ -30,7 +30,14 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: 검색
+      - name: 항공사 특가 소식
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m flightwatch.sales
+
+      - name: 항공권 검색
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -38,8 +45,9 @@ jobs:
         run: python -m flightwatch.main ${BUDGET:+--budget "$BUDGET"}
 
       - name: 알림 기록 저장
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/notified.json
-          git diff --cached --quiet || (git commit -m "알림 기록 갱신" && git push)
+          git add state/
+          git diff --cached --quiet || (git commit -m "알림 기록 갱신" && git pull --rebase -q && git push)
