@@ -7,8 +7,9 @@ from flightwatch.match import best_deal, sort_deals
 from flightwatch import state as st
 
 TRIPS = [
-    {"name": "1박2일", "depart_weekday": "sat", "min_depart_hour": 0},
-    {"name": "2박3일", "depart_weekday": "fri", "min_depart_hour": 18},
+    {"name": "1박2일", "depart_weekday": "sat", "nights": 1},
+    {"name": "금~일", "depart_weekday": "fri", "nights": 2, "min_depart_hour": 18},
+    {"name": "토~월", "depart_weekday": "sat", "nights": 2},
 ]
 
 
@@ -17,13 +18,15 @@ def leg(price, dep="10:00", dur=110, date_="2026-11-21", fno="7C1"):
 
 
 def test_weekend_trips_range():
-    trips = weekend_trips(date(2026, 10, 17), date(2026, 12, 31), TRIPS)
-    assert trips[0] == Trip("1박2일", date(2026, 10, 17), date(2026, 10, 18), 0)
-    assert all(t.ret.weekday() == 6 for t in trips)
-    assert trips[-1].ret == date(2026, 12, 27)
-    fri = [t for t in trips if t.name == "2박3일"]
-    assert fri[0].depart == date(2026, 10, 23) and fri[0].min_depart_hour == 18
-    assert len(fri) == 10 and len(trips) == 21
+    trips = weekend_trips(date(2026, 10, 18), date(2026, 12, 31), TRIPS)  # 일요일
+    assert trips[0] == Trip("금~일", date(2026, 10, 23), date(2026, 10, 25), 18)
+    sat = [t for t in trips if t.name == "1박2일"]
+    assert sat[0] == Trip("1박2일", date(2026, 10, 24), date(2026, 10, 25), 0) and len(sat) == 10
+    mon = [t for t in trips if t.name == "토~월"]
+    assert all(t.ret.weekday() == 0 for t in mon) and mon[-1].ret == date(2026, 12, 28) and len(mon) == 10
+    assert len(trips) == 30
+    # 오늘이 토요일이면 오늘 출발도 포함
+    assert weekend_trips(date(2026, 10, 17), date(2026, 10, 19), TRIPS)[0].depart == date(2026, 10, 17)
 
 
 def test_weekend_trips_after_end():

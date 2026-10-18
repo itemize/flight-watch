@@ -10,19 +10,17 @@ WEEKDAYS = {"mon": 0, "tue": 1, "wed": 2, "thu": 3, "fri": 4, "sat": 5, "sun": 6
 class Trip:
     name: str          # "1박2일" 등
     depart: date
-    ret: date          # 항상 일요일
+    ret: date
     min_depart_hour: int
 
 
 def weekend_trips(today: date, end: date, trip_defs: list[dict]) -> list[Trip]:
     """today 이후 출발 ~ end 이전 귀국인 일정 목록 (출발일 순)."""
     trips = []
-    sunday = today + timedelta(days=(6 - today.weekday()) % 7)
-    while sunday <= end:
-        for t in trip_defs:
-            wd = WEEKDAYS[t["depart_weekday"]]
-            depart = sunday - timedelta(days=(6 - wd) % 7 or 7)
-            if depart >= today:
-                trips.append(Trip(t["name"], depart, sunday, int(t.get("min_depart_hour", 0))))
-        sunday += timedelta(days=7)
-    return sorted(trips, key=lambda t: (t.depart, t.name))
+    for t in trip_defs:
+        depart = today + timedelta(days=(WEEKDAYS[t["depart_weekday"]] - today.weekday()) % 7)
+        nights = int(t["nights"])
+        while depart + timedelta(days=nights) <= end:
+            trips.append(Trip(t["name"], depart, depart + timedelta(days=nights), int(t.get("min_depart_hour", 0))))
+            depart += timedelta(days=7)
+    return sorted(trips, key=lambda t: (t.depart, t.ret, t.name))

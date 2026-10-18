@@ -18,13 +18,17 @@ max_duration_minutes: 240
 same_airline: true
 
 # 일정 종류
+# (min_depart_hour: N 을 넣으면 출발편을 N시 이후로 제한)
 trips:
-  - name: "1박2일"
+  - name: "1박2일(토~일)"
     depart_weekday: sat
-    min_depart_hour: 0
-  - name: "2박3일"
+    nights: 1
+  - name: "2박3일(금~일)"
     depart_weekday: fri
-    min_depart_hour: 18  # 금요일 18시 이후 출발
+    nights: 2
+  - name: "2박3일(토~월)"
+    depart_weekday: sat
+    nights: 2
 
 # 이미 알린 항공편은 이 비율 이상 싸졌을 때만 다시 알림
 renotify_drop_ratio: 0.05

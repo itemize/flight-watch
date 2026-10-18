@@ -51,8 +51,9 @@ def main() -> int:
 
     trips = weekend_trips(today, end, cfg["trips"])
     if args.limit_weekends:
-        sundays = sorted({t.ret for t in trips})[: args.limit_weekends]
-        trips = [t for t in trips if t.ret in sundays]
+        week = lambda t: t.depart.isocalendar()[:2]  # 금·토 출발은 같은 주
+        weeks = sorted({week(t) for t in trips})[: args.limit_weekends]
+        trips = [t for t in trips if week(t) in weeks]
     if not trips:
         log(f"검색할 일정 없음 (오늘 {today}, 종료 {end}) — 종료")
         return 0
