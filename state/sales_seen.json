@@ -47,6 +47,12 @@
   "notified": false,
   "title": "트리니티항공, 항공의 날 맞아 할인 프로모션… 국제선 최대 22% 할인"
  },
+ "CBMiWkFVX3lxTE9xUS1KZThwRXNkZGdBU2FrczhTaFdvUVgyLTB1OWhVRXJmUHNzdExVUTRSb2NaZXduX3F1LVJDQ0Q2dUJleDFRdjFfU0ljcDJGSURWWE9IMVE4dw": {
+  "airline": "트리니티",
+  "date": "2026-10-23",
+  "notified": false,
+  "title": "트리니티항공 '가을·겨울 시즌 국제선 할인' 프로모션"
+ },
  "CBMiY0FVX3lxTE5mcUhvLXN4cU5wTTBtMTBpZFgzd1dqSW5JWUhUdUlyWThmSEs2RFc0N05TcTVVeTJRdUlDZXY2ZGxDbXNDekphUW1SV2FLVU5ZRjJRa19kYVROVzk1T1N4YlRHVQ": {
   "airline": "에어부산",
   "date": "2026-10-19",
@@ -326,6 +332,12 @@
  "CBMirAFBVV95cUxPMlljbGNEeHZxV2NTZWJoeVIyczctajdWRXgxalFWaTFScmlUWE9mUWU4NnZEZHFwMUs4cjk3NjdpZHpqQ2RCQjdaRVRrVFd4bDVEVVBWUXllYUo1dWttcEdwRzRJTmFCRWhhbXIwTWE0dTJHUXBQSjh2S0VSUVotWGFEbXBTVC1mOE95TEdRTENoN2RWZ0hHUUJUTUlRSWNkb3VxVHhDNmVfQThk": {
   "airline": "에어프레미아",
   "date": "2026-10-22",
+  "notified": false,
+  "title": "에어프레미아, 미주출발 항공권 최대 20% 프로모션"
+ },
+ "CBMixAFBVV95cUxPbmpHYmhKZEZjaHBSSlJOSEVDWlMxM3hzYTBINTNqWEI2QmNrYmEtR3NqWVAwcmpUNllNYUNuQXFCQlE5S2VybExXdzhmR1NnODBKTFFtcV9pUXNMVEU2ZzU3YWFmSU5nME9pOTZDS0JNVlgzSzZNZjdsT2NWalNfY3FJXzFNNkluMTJSSHdXM3JqT0JFcWp1cjFnanN2a2lWSldrZ04wOWpJcFBjU1RObnFLbkxkVlFQcTJ6NGNnaWpzb0hy": {
+  "airline": "에어프레미아",
+  "date": "2026-10-23",
   "notified": false,
   "title": "에어프레미아, 미주출발 항공권 최대 20% 프로모션"
  }
