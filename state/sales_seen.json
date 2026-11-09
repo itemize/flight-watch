@@ -11,18 +11,6 @@
   "notified": false,
   "title": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업"
  },
- "CBMiS0FVX3lxTFBoUGR4TzRoNmRGU0o2TGl2SXYyRVp0OWwxZFk2WWl0MDJYb0ZENXFKZldCeUlWOElfWkRXWlVKTDlzdW40TXQxakVXbw": {
-  "airline": "에어로케이",
-  "date": "2026-10-19",
-  "notified": false,
-  "title": "에어로케이, 동계 항공권 최대 98% 할인…19일부터 ‘앵콜 에케세일’...편도 7만원대 부터... : 기업·산업"
- },
- "CBMiTEFVX3lxTE1PSjZmd0FJMXV4WVBLRWNCZG9VUU5GLW1ONEhEbDIxUkVDcEFYSjlma2NMSnZqZG1zYy1iY05BdTJHVVdHLUlWU3F4V3k": {
-  "airline": "에어로케이",
-  "date": "2026-10-19",
-  "notified": false,
-  "title": "에어로케이, 동계 시즌 항공권 특가 프로모션"
- },
  "CBMiU0FVX3lxTE5mWmNtZXZybjQxUnB5WjlMZUl2V1U3X3dsczd1UEdRN1NZWkgzdXBVd0VCdTVlWkk1SVdrX2Z5Ump5STNyS2RsbjJpdWlQRndEdnZv0gFTQVVfeXFMTmZaY21ldnJuNDFScHlaOUxlSXZXVTdfd2xzN3VQR1E3U1laSDN1cFV3RUJ1NWVaSTVJV2tfZnlSanlJM3JLZGxuMml1aVBGd0R2dm8": {
   "airline": "에어부산",
   "date": "2026-11-02",
@@ -143,11 +131,11 @@
   "notified": false,
   "title": "에어프레미아, 전 노선 항공권 최대 72% 할인"
  },
- "CBMiY0FVX3lxTE5mcUhvLXN4cU5wTTBtMTBpZFgzd1dqSW5JWUhUdUlyWThmSEs2RFc0N05TcTVVeTJRdUlDZXY2ZGxDbXNDekphUW1SV2FLVU5ZRjJRa19kYVROVzk1T1N4YlRHVQ": {
-  "airline": "에어부산",
-  "date": "2026-10-19",
+ "CBMiXkFVX3lxTFBoM0wxSUtXZEFleFM4M1VGX3dCNGpMcTh1UWZzLTZWUFp5UmtIMXFSUG5lbm9XTU1WbEhsTVRkS2JyX0kxTnNramkyYmQyYWpyRlFhMHBoc1R2OTdLX0E": {
+  "airline": "제주항공",
+  "date": "2026-11-10",
   "notified": false,
-  "title": "에어부산, 연말 국제선 특가 프로모션…14일부터 20일까지"
+  "title": "제주항공, '내 여행 취향' 누적 등록 6만건 돌파…특가 서비스 확대"
  },
  "CBMiYEFVX3lxTE5sTF9MMmdsVHdrWFAwYU1zM3J6LWN4b0lNd1M4TDJfMUwyVlFUNGxmVG1pZnpQUEJib0hsQi16RmNzSFp1T0pSWnhtbktScURaOURHVExHNnB5X1JSY1g3MNIBeEFVX3lxTE9KR0cxUG1VQ1NaaENua0JxZ3ZEemZHSDMxTzY5ODZveHpaekprbDN4a19ZMHJGWlI4REwyTmZfUmpURkd0dGRUQ0hoTjJuVlRZNThkRHFVaEF1QXJobXlkU09MblVEQXlZUjZMTlYzbHFoN1FtZ2s4ZA": {
   "airline": "에어부산",
@@ -328,12 +316,6 @@
   "date": "2026-10-21",
   "notified": true,
   "title": "트리니티항공, 내년 1월 탑승 국제선까지 프로모션"
- },
- "CBMiakFVX3lxTFBZMDBYM0pBYkU1VTRTM1RsX1VyX0dUWFhrd0o4bXhhMHhOUGd1OU41aHZUS1R2T3luSjFhVFFsTGJobWxWNW5NMU9jUHZmYmdBQllGX0xuWjV1TVN4VU92cklYcGJTcGtYbkE": {
-  "airline": "에어로케이",
-  "date": "2026-10-19",
-  "notified": false,
-  "title": "에어로케이, 동계 항공권 ‘앵콜 에케세일’"
  },
  "CBMiakFVX3lxTFBkdHMxbGcxTnJMWEJMR3BLZnh1S2hRXzktWFltRXB6Z2pkNUFScDVDejZCbkttMUxxZV8wSU9aWHFiY2I5bk91WV9jWkZvN0hNY3UyMXVGWVk0a1BvTVpoSUtfMnFCRXZCT2c": {
   "airline": "트리니티",
@@ -605,6 +587,12 @@
   "notified": false,
   "title": "트리니티항공, 제주 왕복 항공권 최대 2만원 할인···겨울 여행객 유치"
  },
+ "CBMid0FVX3lxTFAxMFVoUUk3dFFRX250TFhWQTNaTVVvUC02SS1kb0Z6MHF4VWx1RFM4R3JnUWdocFpxVGR6aVdJa0lGVnZpOHVaUUFXM1VBNUhjOHhYOWszR2JmNWtJRnV0bl8tTW1zbXFRSmdrTENxQWZ0ZWFucHh30gF3QVVfeXFMUDEwVWhRSTd0UVFfbnRMWFZBM1pNVW9QLTZJLWRvRnowcXhVbHVEUzhHcmdRZ2hwWnFUZHppV0lrSUZWdmk4dVpRQVczVUE1SGM4eFg5azNHYmY1a0lGdXRuXy1NbXNtcVFKZ2tMQ3FBZnRlYW5weHc": {
+  "airline": "제주항공",
+  "date": "2026-11-10",
+  "notified": false,
+  "title": "제주항공, 맞춤형 특가 안내 서비스 ‘내 여행 취향’ 운영"
+ },
  "CBMidkFVX3lxTFBHQUxOM1BXc19ELXNocTlHY1BaMGF0ZTFQZGJEbG5GN3EtSWtKZzFfMTBoU2M5MXIwV0tWSXlESWR3MGdUdGRCbldDcGxuempoRWRxd1ZmYmFmT3hnbS1BMDMtY1pmVnc4YnE2N0x5OVJnb0gwU3c": {
   "airline": "트리니티",
   "date": "2026-11-02",
@@ -647,11 +635,23 @@
   "notified": false,
   "title": "에어프레미아, 전 노선 항공권 최대 72% 할인"
  },
+ "CBMiekFVX3lxTFBvQ21HLXVWdUM1M3lWbWhEREUzRjFqb2FWVTZOeV9WUy1obmIxRk1abzI3Zmh4N1pxcWp5RHRGMkg2MmZmSjZ3MU44dXFaWEtwSzBvOU40SWxGMTdNMEJTOTNJSHN2azgwYU1LQThUS1phWFF2V01US3RB": {
+  "airline": "제주항공",
+  "date": "2026-11-10",
+  "notified": false,
+  "title": "제주항공, 취향 기반 특가 알림 ‘내 여행 취향’ 운영"
+ },
  "CBMifEFVX3lxTE1ITGI0cnphZW9QU1JMRXNRSmhKaGtYak9UQzJVcjNGcmRWWWt5cGVWU19fNUljZEVtanhkY1BNMkxFZmNxdVdtRTJzOG82TEtHTjhaT19NeVhOTDdSczhiWVM1eTBMUFd6a3FURzloT1haMEJ4LUV5MG9Ua3A": {
   "airline": "에어부산",
   "date": "2026-11-05",
   "notified": false,
   "title": "에어부산, 부산~광저우 취항 앞서 항공권 특가 판매"
+ },
+ "CBMigAFBVV95cUxOdHRBWUh3aVJrMWV0Z3FSSUhra2dKU05NaXVlSlNqVFBSOWJPVGdWRGRHdjZGMjhEc2c4R0t0alZtblUyek9idE90TWI2c3lWNjNLSUlpaXZHNV9sSUVrMVlvb1BsQjFmQWxNQVI5eEdFb2U0bVJMc3E3LWhzNGFvUg": {
+  "airline": "제주항공",
+  "date": "2026-11-10",
+  "notified": false,
+  "title": "제주항공, ‘내 여행 취향’ 따라 항공권 특가 안내…누적 등록 6만여 건"
  },
  "CBMigAFBVV95cUxPUG5Nc2hwdzZjeTMyTU8wZE96Tzk4dkZQMHdabE5LR21DQ1NDUXVPaDhHanR0c0tPUENDeUxMOXl4THhFSGoyb1VYRE95VGZrZ2Rvb1ZVblZSdzdoR0lhZS1ESEw2a3EtdkNJRWtwWnA3M3R4X0s3eDFHamxSV0t6aA": {
   "airline": "에어프레미아",
