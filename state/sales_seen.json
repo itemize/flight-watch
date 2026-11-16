@@ -1,4 +1,10 @@
 {
+ "CBMiQkFVX3lxTE5xa3JzRU9CU2lzODJIUWtxM3hjTng3aElVV1JwX2ZiRU8tUmNCajFXQ3cwVFNXcGVOSVR3QUl4eVg1QQ": {
+  "airline": "트리니티",
+  "date": "2026-11-16",
+  "notified": false,
+  "title": "트리니티항공, 30일까지 국제선 특가 항공권 판매"
+ },
  "CBMiR0FVX3lxTFAycDVQUktkN0pLS3hBSEdpdFA3QllQanB3ckdjZV9Qb3ZjMlU2YkczQ2xrYktIdVZFdFBqV0dyY2J2Tm1kTmZB": {
   "airline": "진에어",
   "date": "2026-11-15",
@@ -23,6 +29,12 @@
   "notified": false,
   "title": "트리니티항공, 수능 프로모션…국제선 최대 20% 할인"
  },
+ "CBMiU0FVX3lxTE1pWVA5VGdjdVcxRHkzM083dGU0bGk5ZWFkVHZuLXZ0THd6RC1kb1A1aUt4anpOT1JpNmt6UGNXUkdRa3hfaVNpT0stSGUyT0IxOWpj": {
+  "airline": "이스타항공",
+  "date": "2026-11-16",
+  "notified": true,
+  "title": "이스타항공, 수능 수험생 항공권 최대 25% 할인…동반 1인도 혜택"
+ },
  "CBMiU0FVX3lxTE5mWmNtZXZybjQxUnB5WjlMZUl2V1U3X3dsczd1UEdRN1NZWkgzdXBVd0VCdTVlWkk1SVdrX2Z5Ump5STNyS2RsbjJpdWlQRndEdnZv0gFTQVVfeXFMTmZaY21ldnJuNDFScHlaOUxlSXZXVTdfd2xzN3VQR1E3U1laSDN1cFV3RUJ1NWVaSTVJV2tfZnlSanlJM3JLZGxuMml1aVBGd0R2dm8": {
   "airline": "에어부산",
   "date": "2026-11-02",
@@ -34,6 +46,18 @@
   "date": "2026-11-03",
   "notified": false,
   "title": "에어부산, 부산~광저우 취항 기념 특가 항공권 선보여"
+ },
+ "CBMiUkFVX3lxTE9iZlBUQXZPbC0tNDV4RGdXTnhybW1BYjlDaW01RmJENmQ5MHdsQkF6bGtYZHhCekJYNGczSVludUhNSEgydG9Cbk5sVm5KVDQ4Y2c": {
+  "airline": "이스타항공",
+  "date": "2026-11-16",
+  "notified": true,
+  "title": "[게시판] 이스타항공, 수능 수험생 대상 항공권 최대 25% 할인"
+ },
+ "CBMiVEFVX3lxTE1JampnREFwLUlVWFB3TVhlLU5jVVowNmt3N3NaeTF1OWNBN3FaRUtFalBHaXRfNS1fSzlCNzRXWXkzZFBZT0dPVFRDcUhBXzgyTmhrNA": {
+  "airline": "이스타항공",
+  "date": "2026-11-16",
+  "notified": true,
+  "title": "이스타항공, 수능 수험생에 항공권 할인…국제선 최대 10%"
  },
  "CBMiVEFVX3lxTE1fWkZfMmN2TWUxb0FIMmVaUTZDREZpaUt0RUk0c3h3cW93YUc0SWtsdkpnSWJYTnFNWGszekZUTUxTVG9hTFNKVThQWG1Vc0hTQm1IMQ": {
   "airline": "트리니티",
@@ -58,6 +82,12 @@
   "date": "2026-11-09",
   "notified": true,
   "title": "제주항공, 취향 맞춰 특가 알려주는 ‘내 여행 취향’…3개월 만에 6만건 등록"
+ },
+ "CBMiW0FVX3lxTE11aGNFUkdydDg5Y0RYdENLcUNmVEltckhnVTI0ZFlPaGpFbl90QnF6NkI2c2JVbExPTG85RldJRFNMSm5IczQ0bm1TQ2E0ZTc2Rmg0QUhkeEMyZTDSAWBBVV95cUxOaEVWUzZ2b255ODlXeEFTRHAwQk1pQUxVaDJtUjB2cksxX1dmSnRUQlcwWjd0WFVJOWlPM2ttenJ2MG40VEhEUXl5eG93NEJFR3VmQ2Y3Z01abllWLWRwbkU": {
+  "airline": "이스타항공",
+  "date": "2026-11-16",
+  "notified": true,
+  "title": "[게시판] 이스타항공, 수능 수험생 대상 항공권 최대 25% 할인"
  },
  "CBMiWEFVX3lxTFBQQjRpNUtNT3VPMm5IUGtYXy1xR3pWZHVKV3FDYnZBMW9fVlRva0tMekZvMWtFczhROEZjd1pVclFXYVU3WWZIRVNlSTFZaFRJejlVRFNRNnM": {
   "airline": "트리니티",
@@ -119,6 +149,12 @@
   "notified": false,
   "title": "에어프레미아, 전 노선 항공권 최대 72% 할인"
  },
+ "CBMiXkFVX3lxTE5NUWxBQk40VU9MLVZGWGlCaDNXRlZBZzBIWGw3cXR3X0NUNVRoYWY2T1F0eTBKTks4dXRXMTFKVnplYWZSSU4xNjFrNDNfY3BsWFkwNk80ZnFNSDhLN2c": {
+  "airline": "대한항공",
+  "date": "2026-11-16",
+  "notified": true,
+  "title": "신세계여행사⚫⚫ 25%더 할인! 6/8까지 발권 ⚫⚫ 6/2-2027.2월 일정⚫⚫에어캐나다특가⚫⚫대한항공 유류할증 인하!!⚫⚫신세계여행사로 문의 주세요!!!⚫⚫416-536-5000"
+ },
  "CBMiXkFVX3lxTE5hME5EMDVCM2U4ckRUcUpKaDNkOTgyMG5iVWRXdW5FODQxRDhraGF5alVqN0VLRnBsMHBFendUOGxjbXdLOXlwTXo2cXhEX3hNOUNVbjVMUFJNcGhmTHc": {
   "airline": "에어서울",
   "date": "2026-11-10",
@@ -137,6 +173,12 @@
   "notified": false,
   "title": "제주항공, '내 여행 취향' 누적 등록 6만건 돌파…특가 서비스 확대"
  },
+ "CBMiYEFVX3lxTE10aHRobEJndFBLRVJWcW5vZzlxdWN1VDRReGdVd1pZSm9RaC1vZ0JBVE9VLUhQRXB4WWxTQkZIOGV5YmJaUTZjVGpUYjE1V3ZQMDczd29uMFRrbVBPRXJfSQ": {
+  "airline": "이스타항공",
+  "date": "2026-11-16",
+  "notified": true,
+  "title": "이스타항공, 수능 수험생·동반 1인 항공권 최대 25% 할인"
+ },
  "CBMiYEFVX3lxTE5mOUtNTTRwd2Q3ZUlEMkFpZVF6R0ExQ19hcTFQaU1xZ1RuOWtQbU1BbW1leG04VmlCaTc4T0UtSkJpQWlZSV9DaVJ6UEpvb01FclVGZkp3VzB2TnVEVXNOUw": {
   "airline": "제주항공",
   "date": "2026-11-10",
@@ -148,6 +190,12 @@
   "date": "2026-11-03",
   "notified": false,
   "title": "에어부산 부산~광저우 노선 신규 취항…3일부터 프로모션"
+ },
+ "CBMiYEFVX3lxTE92cjBlSjAyMWNfNF9fSVZRMWtNNVRhazQ5TUcyZWhDMDRySldkaVRHcTQ1M0RUZnk0M3R0TGVEaUNEekwtcGdGNko5OEZGcXlvLXpwc3puX2VvUVdCSmhhVtIBeEFVX3lxTE02aDV1eWRqYUJnaVBzQnZhTVpWWk5MTXlRRGtPSHVXMUFUUVU1cG1LeFZ3VnFoMEJMSUF6eVEtREIzZ3pVSmg2SFNGWXpFdTdVWXBaMkI2a2VseElURTNLUy1zNEZSVzJDZ2lWRjhIc3I4NlJOZEs5dA": {
+  "airline": "트리니티",
+  "date": "2026-11-16",
+  "notified": false,
+  "title": "[대구소식]트리니티항공, 국제선 블랙프라이데이 프로모션 등"
  },
  "CBMiYkFVX3lxTE53bk5RQnpCTzN6TUlPMXVKUk9ucVoxbFpRVGYyNzFhcDlYN2FSX04tQjExU2RKV2t5Tm1DeDZfaUlQUlVTX1hWakp4TjBCVFYyWDlGRmpUNHgxdk4zZ2Fqc2pB": {
   "airline": "제주항공",
@@ -197,6 +245,12 @@
   "notified": true,
   "title": "“제주 왕복 최대 2만원 할인”…에어서울, 겨울 여행 프로모션"
  },
+ "CBMiZEFVX3lxTE9KRk9vM0pxT0NVZWQ2UEpZN2dUT2NIaTZIV0ZDcDhvLWNvWmo2QUQtVjA5ZU9ZaHpqb1NqTGFnMk9sSnJxZ2s5ejB2TGpFSTAtUUxFS0ZsSlU2cWJOQkxFUFpCWFc": {
+  "airline": "이스타항공",
+  "date": "2026-11-16",
+  "notified": true,
+  "title": "이스타항공, 수능 수험생 대상 항공권 최대 25% 할인"
+ },
  "CBMiZEFVX3lxTFAzX3lLdHI0TWZZSWd6YlJuSTlzOEkzQlR3M054d3ZqcnFmYVFmSWZRaVd4WUdNeFllRTR6SWlhbXZYWHNBREdWMUNIOFVlejZyUWRpMWw4NjJZWTh4ZlcxdjRYdms": {
   "airline": "트리니티",
   "date": "2026-11-02",
@@ -215,6 +269,12 @@
   "notified": true,
   "title": "에어부산, 부산~광저우 취항 프로모션...편도 14만원대부터"
  },
+ "CBMiZkFVX3lxTE1aNUdjalVVVy0zMUpuTHRUWEdwZV9HTDJSLUtUSEdna0FwSlJqcE02QnJMVFRmYm5OSXVBY3htLVU5Z045ejZRWC1JLWtWOVhXM1d5NmExLXhzaW1OVnNPVTcxWHlpdw": {
+  "airline": "트리니티",
+  "date": "2026-11-16",
+  "notified": false,
+  "title": "트리니티항공, 국제선 블프 프로모션...최대 4만원 쿠폰 外"
+ },
  "CBMiZkFVX3lxTE5JYXhVSTFDSldYWGdERDJzNk1OemFvWjFKbk8xTlpDTWNCSU5UMkVzemtYekVTNTJ6VnkyeTZKd2FvTGF0Y0FkX2tZVzFJdXVTYTFNMXJmWXlmX2dRZWVZbFNwRFktdw": {
   "airline": "트리니티",
   "date": "2026-11-02",
@@ -226,6 +286,12 @@
   "date": "2026-10-28",
   "notified": false,
   "title": "제주항공, 항공의 날 맞아 국내·국제선 48시간 특가"
+ },
+ "CBMiZkFVX3lxTFA2SEpralNpckwtNVBrekFFTFZWWEt4SE03N2ZlTnVucTh5VlItTmZ0d3AxVHdSTHczLUJDY0lVWU1kWlVXVEJZemZoeVoxdkw3YjdyVXRta1MxZUs5dTVlZTJra3ROQQ": {
+  "airline": "이스타항공",
+  "date": "2026-11-16",
+  "notified": true,
+  "title": "이스타항공, 수능 수험생 대상 항공권 최대 25% 할인"
  },
  "CBMiZkFVX3lxTFBQQy1xRUJzeUF3VDlicm8tRWZ0dG81QmNNS3JZZzlpMWFJcmE1T1B6eE8wYldObFhjZmFGSXpRS3NXZ1VHNm5fNHJ6WFFoelNtX1pyRUk0ZThNRzVzWGN1ckJYSnVTdw": {
   "airline": "트리니티",
@@ -287,11 +353,23 @@
   "notified": false,
   "title": "트리니티항공, 국제선 예약 프로모션…현지 여행 혜택도 제공"
  },
+ "CBMiakFVX3lxTE5mS210aGRyR2NmamFWeC0zRTVRVTFDeFZScXpwWWNPMFhob0VmWTl0RXZUS0VfVjExS005TmtPOXhJVlNsWlVoaXRQeXpndklpY2NoaTZCMkpJSDFXLWFuaDVUa29RTkRxNWc": {
+  "airline": "트리니티",
+  "date": "2026-11-16",
+  "notified": true,
+  "title": "최대 4만원 할인부터 선착순 특가까지…트리니티항공 '블랙프라이데이' 행사"
+ },
  "CBMiakFVX3lxTFB6R3hTVHJVNENILXBzY3VUOHFFRXFTcGNUWmVzSnFBMEtnaDJTVzQxdDREVEhpcmY0U3Rqbk80MDlHaU84SDhVSjRmMmtlOTQzMk42R1pocDNXZXkwSWxTWEJfZC1fT3FIZFE": {
   "airline": "트리니티",
   "date": "2026-11-10",
   "notified": false,
   "title": "트리니티항공, 지역 공항 출발 노선 최대 2만원 혜택…우리 동네 할인 프로모션"
+ },
+ "CBMiakFVX3lxTFBteWdaRTF6X0hLaHRtNTFTODFadVJJYlhOaDAtNzZVZkM5Y0x6YWhtR2l6dkFVOHhoRGRMVFpfZE9sQktTSGFCOVA0WnJSWVNwRWJld2hJN3lhVWhUc3Y3dFdvOElUellJN0E": {
+  "airline": "이스타항공",
+  "date": "2026-11-16",
+  "notified": true,
+  "title": "이스타항공, 수능 수험생 대상 항공권 할인…국내선 최대 25%"
  },
  "CBMiakFVX3lxTFBuc01KT0VkdHE3LXNscFN4cDhGX3EtcHNGenFxQ2xuT2Q0TEU3YXN1R2FUVEtHeHFSVkk3RkFxLXljV1AyMlh0QTIzQXJZODFPUm9fMG9fOVM3ZEFSbjRoVHNiSVo2ZlB0bVE": {
   "airline": "트리니티",
@@ -353,6 +431,12 @@
   "notified": false,
   "title": "\"수능 끝나고 어디 갈까?\" 트리니티항공, 수험생 항공권 할인"
  },
+ "CBMibEFVX3lxTFB5OFZaM0pZeE5JcllvNHlHTTlJcEhqTFBhak5uZWRMOXJyejNiVjdCQWU0NHAxN3c5VHE3VDR3WFJVN2Vqb2lEbnBCVG53M0U5YU1FSUhMdGl1VnNoZEZIc2ZIbi04MnZMakJKbQ": {
+  "airline": "트리니티",
+  "date": "2026-11-16",
+  "notified": false,
+  "title": "항공권도 블랙프라이데이 특가로…트리니티항공, 국제선 할인"
+ },
  "CBMibEFVX3lxTFBQdktZSnZzWXNRa3ZLclF6ZC1YZUNWSktzc0hMV2d5RDgwTnZqM2hwT3RtWmtTY1BCRlBTQlJpanVUVTlmNi1iVXNyaXBLSDVEMFVZVzlkOUdyU00zUHg0WG1YUDdfX3hkOFZwbg": {
   "airline": "트리니티",
   "date": "2026-11-02",
@@ -389,6 +473,12 @@
   "notified": false,
   "title": "트리니티항공, 국제선 항공권 최대 25% 할인···추가 쿠폰 3만원 제공"
  },
+ "CBMic0FVX3lxTE92ZXVQRVdhSmZZbkRQdW9KaGxCSHFZU1JpWmFub3dnYWVOX2JNTm5fMmpmRFdCdi1NVzZuejlFRThlRkFaeGF1eEFRcHJ1b0ZjVjlwNE5Kd0FlU1djRHhhSjQ2elFwT1FnVWtTZU5vR01PTTTSAXdBVV95cUxPaDRqc1IzekJZYkZ1VGtSbzU3RXJiSlNQcndBdkE3MzJfdVQxc0l5a0FOVHJZMmxleFNlaG43SU1zYmJhMUk5OGt1UkRCcVl5NGlITXN2OFRaRlR5SlpQNUFRWDU0V0tWNFRqN0txak1EUE55eU5qaw": {
+  "airline": "트리니티",
+  "date": "2026-11-16",
+  "notified": false,
+  "title": "트리니티항공, 국제선 블랙프라이데이 할인···최대 4만원 쿠폰 제공"
+ },
  "CBMic0FVX3lxTE94dUtkbV8tUEdFR2VCTmY4R1g3OV85WkItZDlYT2JlVXNkQXo2eUlhbkpSdVpQV2pmbzZHTnFDWHZWVXFQckxsZmtZOW1QRjRISGFRQUJZUERVSFMwSWpBWnBIVlRnQlBTZng1bS1mYWxwdkXSAXdBVV95cUxOLU11cXJ1a3hTdllEYWZ4VTZrZXNLdmRMaGlnRy1iZXpFSzFPRVllSmxCUmxRV2FYWERqT2hVclhMY0tVOGtuV1hBdThJbmRSS1lESXVmUzNvS0FBeTl2bFIxUEkwRXJOZ0ZhU084OThGcDloWXVGNA": {
   "airline": "트리니티",
   "date": "2026-11-12",
@@ -406,6 +496,12 @@
   "date": "2026-10-30",
   "notified": false,
   "title": "트리니티항공, 제주 왕복 항공권 최대 2만원 할인···겨울 여행객 유치"
+ },
+ "CBMic0FVX3lxTFBiOVdhSVRmc3NGcmo1Nmh3NjI2eXdkQ0hoUTNXT3RGdWpxdlVneVMtNXFDZXFVWERudzYwSWRVVnhyWkdXZFlXcXE5LTM4RWs3ems0OTZNV2dXRTB0Z1RJX05QdEE0M3Nqdmh4eGE5c0c5Q0XSAXdBVV95cUxNV0dBZi1TWWRzNFVHSks1TmV6Y3RkemJRbUF1UWxUbkZwcFYzN2ZmWjZNSmxlREtxUE9NRTNmX1VNZlg5UzJBMXRsVUk0OUJpWHRwXy1HaUEyV3l5cXU5V3JHNFBQMFhSdndmOTVyT1NMTlNwaWdpMA": {
+  "airline": "트리니티",
+  "date": "2026-11-16",
+  "notified": false,
+  "title": "트리니티항공, 국제선 블랙프라이데이 할인 진행"
  },
  "CBMicEFVX3lxTE16eGVlZGhfdjFrS2hEa3NsbmhPUFlKZmVkZTNwamMzRW1adFI2MEV0N0hsMmR5TWp3cnI5eG14NEk2S1ZLS19JZnR3SUs1QjNCVjJrUDd0U1gxN2RfWkVydExpZV9Fc21jSGtUR0hPcWM": {
   "airline": "에어프레미아",
@@ -442,6 +538,12 @@
   "date": "2026-11-09",
   "notified": true,
   "title": "제주항공, 맞춤형 항공권 특가 서비스 출시 3개월여 만에 6만건 등록"
+ },
+ "CBMicEFVX3lxTFA3dUVNd1llRENEZmVlV1g1Qm9HTkNGZVlrdjlqRDR3WnA2cEg2bzZGd1BBMzFqZGh6aC1jZ1B5eEdMdHl2bmZHR0ZLd1JQTkEydEd4eVAyS184MUE1SGRnOFJINWJzdjdxOFNzSGNERznSAXRBVV95cUxOZTdjVm5aaUx5UUFoNG5jRVZVRWxhWUdkUV9yU25sWU02cFM1aVFOakhHWFdJUlNrZnJZaFlyWUhJaW9zOEFidGJVaW4wQUhMc0xSZ1BXY0dFY0poaDg1MnRmYl9hZFFPanJRV2dUVnR5ME5fTw": {
+  "airline": "트리니티",
+  "date": "2026-11-16",
+  "notified": false,
+  "title": "트리니티항공, 내년 하계 항공권 오픈···‘블랙프라이데이’ 할인 병행"
  },
  "CBMicEFVX3lxTFB4LTBfWENjazcyU29pNUt6emVBc2VQZkZDS0hkdERXeDAyNUVaYmppOFJzN0hOZERaYWNWemNxYUJIWmpYUkp6QzhldlJPb3QyNHJYOEUtTDJLOU5sa3pBenZzVnFsMlVYSW56RllYQnLSAXRBVV95cUxQeU40OWVBY1JoQXB6M1BQSF9uQ1BnMjhSZENaMWVJNWxsM0JFUFIzOUtRelBmMWhmeEY1SDc5NFcyNzdYR3V2Z1VTeWRjN3U1SjlWaExjdTNBTzNid0d4NVgxZWN6LWgxQWJhU3B1RXRraVFSNw": {
   "airline": "에어프레미아",
@@ -533,11 +635,23 @@
   "notified": false,
   "title": "트리니티항공, 국제선 항공권 최대 25% 할인···추가 쿠폰 3만원 제공"
  },
+ "CBMid0FVX3lxTE1fVFBQNHpSLVktcjdDM1lEakZNbC1yOFAwT3FMY1JxU0xEa3laTm5ESERrTGdyNC1BZjJSdHhDNnBHVTh3X1F3bDFhMEd5TE5vUjFBLTQtUzJiUlNOaFpua09IbzJGRGRvMTZKX1ItU2FOSk1KS1I00gF3QVVfeXFMTV9UUFA0elItWS1yN0MzWURqRk1sLXI4UDBPcUxjUnFTTERreVpObkRIRGtMZ3I0LUFmMlJ0eEM2cEdVOHdfUXdsMWEwR3lMTm9SMUEtNC1TMmJSU05oWm5rT0hvMkZEZG8xNkpfUi1TYU5KTUpLUjQ": {
+  "airline": "이스타항공",
+  "date": "2026-11-16",
+  "notified": true,
+  "title": "이스타항공, 수능 수험생 항공권 최대 25% 할인"
+ },
  "CBMid0FVX3lxTE4tTXVxcnVreFN2WURhZnhVNmtlc0t2ZExoaWdHLWJlekVLMU9FWWVKbEJSbFFXYVhYRGpPaFVyWExjS1U4a25XWEF1OEluZFJLWURJdWZTM29LQUF5OXZsUjFQSTBFck5nRmFTTzg5OEZwOWhZdUY00gF3QVVfeXFMTi1NdXFydWt4U3ZZRGFmeFU2a2VzS3ZkTGhpZ0ctYmV6RUsxT0VZZUpsQlJsUVdhWFhEak9oVXJYTGNLVThrbldYQXU4SW5kUktZREl1ZlMzb0tBQXk5dmxSMVBJMEVyTmdGYVNPODk4RnA5aFl1RjQ": {
   "airline": "트리니티",
   "date": "2026-11-14",
   "notified": false,
   "title": "트리니티항공, 수능 수험생 항공권 최대 25% 할인"
+ },
+ "CBMid0FVX3lxTE5jSm9qSWd6bDU4SUZlSUY1X0tsV1JhZEJ1SmxpSk9KS2JqZi0wem9HUXhEeU1Xc1ZEZHNGTVNCQzFlbjk0eTJGVVB1dXYzTngxRS1uaG5zWTZOcFFJWWV4N0pyUlE2ajdiTjZLaVhabERYcDRMUmI40gF3QVVfeXFMTmNKb2pJZ3psNThJRmVJRjVfS2xXUmFkQnVKbGlKT0pLYmpmLTB6b0dReER5TVdzVkRkc0ZNU0JDMWVuOTR5MkZVUHV1djNOeDFFLW5obnNZNk5wUUlZZXg3SnJSUTZqN2JONktpWFpsRFhwNExSYjg": {
+  "airline": "트리니티",
+  "date": "2026-11-16",
+  "notified": false,
+  "title": "트리니티항공, 16~30일 ‘국제선 블랙프라이데이’ 프로모션 진행"
  },
  "CBMid0FVX3lxTE83eFFPSGlwMTZockJrenEzSnlfWTJhdUNQOVZGYkU1LXhKVFFyM00yRnBBbXpON1VIOVJVdnBmVGVxRDZJN1NXQks4UDNodzBwbmxfanljeEhDd0IwY29uVDJtU0xfaU9qN1pPZlN2TFR1QVduS0Zj0gF3QVVfeXFMTzd4UU9IaXAxNmhyQmt6cTNKeV9ZMmF1Q1A5VkZiRTUteEpUUXIzTTJGcEFtek43VUg5UlV2cGZUZXFENkk3U1dCSzhQM2h3MHBubF9qeWN4SEN3QjBjb25UMm1TTF9pT2o3Wk9mU3ZMVHVBV25LRmM": {
   "airline": "트리니티",
@@ -575,11 +689,23 @@
   "notified": false,
   "title": "제주항공, 맞춤형 항공권 특가 서비스 출시 3개월여 만에 6만건 등록"
  },
+ "CBMidkFVX3lxTFA1LUUweWYwWGczMUQwdnVHUTg4Y2ZNcDN5ZU0xQmU2VGtKb0dmYlNnOTFiQVpGVWlSZVh4ZGhoWUtnbmx3R3E0Y1ZBSU1YOXhITGtHYzdMS2J1NnVCS2ZWSWJDNHYyeVNCU1RZN1ZvYjRxX3BucFE": {
+  "airline": "이스타항공",
+  "date": "2026-11-16",
+  "notified": true,
+  "title": "이스타항공, 2027학년도 수능 수험생 대상 항공권 25% 할인 혜택"
+ },
  "CBMidkFVX3lxTFBHQUxOM1BXc19ELXNocTlHY1BaMGF0ZTFQZGJEbG5GN3EtSWtKZzFfMTBoU2M5MXIwV0tWSXlESWR3MGdUdGRCbldDcGxuempoRWRxd1ZmYmFmT3hnbS1BMDMtY1pmVnc4YnE2N0x5OVJnb0gwU3c": {
   "airline": "트리니티",
   "date": "2026-11-02",
   "notified": false,
   "title": "“노선별 최대 25% 할인 혜택”..트리니티항공, 국제선 항공권 ‘더블 혜택’ 프로모션 실시"
+ },
+ "CBMie0FVX3lxTE1keFVUTDEzcDJ1ZEpHQlpmZnFkcXptWGtiVGdOV0dPbExEelpLWlBXUkFfQlhfaF95QzcyNFdvZXhYSnhHR3lWSU03MzJkVWVVbmo4a2ZZMkdxdmNzZjduOE1aVjF6d1dkSzI5Z1hTdEhnby1Xai1RMnhlUdIBe0FVX3lxTE1keFVUTDEzcDJ1ZEpHQlpmZnFkcXptWGtiVGdOV0dPbExEelpLWlBXUkFfQlhfaF95QzcyNFdvZXhYSnhHR3lWSU03MzJkVWVVbmo4a2ZZMkdxdmNzZjduOE1aVjF6d1dkSzI5Z1hTdEhnby1Xai1RMnhlUQ": {
+  "airline": "트리니티",
+  "date": "2026-11-16",
+  "notified": false,
+  "title": "트리니티항공, 국제선 블랙프라이데이…내년 2~10월 탑승권 할인"
  },
  "CBMieEFVX3lxTE5iZlRzRzhTY3hGNXo2Mlo1eU9PaTZLQl9wYVVIam10ek1rZzBBVDh1a05CTTBqbVdKTlZrMktnbVlqSTZqNE50RkhjcGdONnRkZzR4ZjE5b2JENU9CZzhSV0RCblFRWnhIdUwwcWREYUs1cW9TQ3NoRQ": {
   "airline": "에어부산",
@@ -616,6 +742,12 @@
   "date": "2026-11-10",
   "notified": false,
   "title": "제주항공, ‘내 여행 취향’ 따라 항공권 특가 안내…누적 등록 6만여 건"
+ },
+ "CBMihAFBVV95cUxQSG9KQ2lUdTlSNzMtbkptdTQySmg4ZTFMa2c1aFJfYXpVTGdxeWhncDdWSG1nRVNMbEdRcDFpSk55UTBieER1a3lZM0x6ajZ3aU9EQlNhRmo5amJ2czFsZ2FMYUpRemx4d1BxQnpyMHAzay1OY21IeXpLcVVJNXR3WkRyejLSAZgBQVVfeXFMT1VQcUtfcUdxYmlhQTNxRWt1cF9HLUFjWE9FZVpQa0pMSEp5amtnSXhxZV9nYXRmSjQ0YkFlcC02WWNrbXV1NEx5U0FwQkpITW5IYl81SVBRWHl1ZWRQQm1ZcGVDUnhHWlJ1b0UyY0ZUX2Z6dWpmM1ZVbjNqcW9VTXM3TF9vcllHX3JEaXdDV0o5ZmVlWGNxT2s": {
+  "airline": "이스타항공",
+  "date": "2026-11-16",
+  "notified": true,
+  "title": "이스타항공, 수능 수험생 항공권 최대 25% 할인"
  },
  "CBMihgFBVV95cUxOTVY1T0E2dTBMUFhBY0FjYkVUZk5XNzNtRlA2aXp0UkJJV2JnQUZaaEhVaVFnTHU4TGJLZUVaSllUaVQ0Vk91dHdpWnJCQ3JILTlQa2JmOG9wZjc5ZUM0Q01LWUJQSVF3RkVXQlZhY0VHclZ4X1MzcFoxX1VERFFsa0NybGstZw": {
   "airline": "제주항공",
@@ -658,5 +790,11 @@
   "date": "2026-11-09",
   "notified": true,
   "title": "“가고 싶은 곳 특가 알려준다”…제주항공, 맞춤형 여행 정보 제공"
+ },
+ "CBMirgJBVV95cUxOX0RxX2YydzRoRE5zVlAzLVRxOEY2dFI1eV9Mb1pwX0JMaEFQaURwZi1CT2o0dVBKVlBCd290LVpoNXpPVDlrWHh0cFpra0N5dnljTkZ5VTRDZi1mc0lRQ3I5TEJSNHBJZVFwdGdJdFVKXzA4NDVMalZWZFVVdEpIVGxoZklZVUEyYjg0czA1aWdNRFBOWDdQOExYUldwRlNoeXdoaGJPVy0tWG1XczFJVEl1Y0Q0M0FxY0NxWnd6YV9SUk4xa0lYbEhoUkZfaTF2ekNmMENHdnIzNkF6Y25VbHRWSEEzY25aMUlxT2dqNy1JLXBKVG9zT1AxVmJhYmI3alpWQXdyc0JnZmlPUUFTSVdRdzFLbWxlRXJhY2NoMWw5RHk0TXJyX2VUN3V1UQ": {
+  "airline": "트리니티",
+  "date": "2026-11-16",
+  "notified": false,
+  "title": "트리니티항공, 국제선 블랙프라이데이 할인…최대 4만원 쿠폰도 제공"
  }
 }
