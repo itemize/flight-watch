@@ -131,6 +131,12 @@
   "notified": false,
   "title": "트리니티항공, 페이팔 손잡고 해외 고객 항공권 할인"
  },
+ "CBMiWEFVX3lxTE9OUENReld0ajVuUXMtMGMzTENzbUhaVVZRal9BLTBkRnEwdFptTmp6ZTh2NDVMci1pdUZuT3BVR1JySWtDVXJldHZEaEcwOWxFUEIybFd5eDg": {
+  "airline": "트리니티",
+  "date": "2026-11-22",
+  "notified": false,
+  "title": "트리니티항공, 겨울 국제선 최대 25% 할인에 결제 혜택까지"
+ },
  "CBMiWEFVX3lxTFBQQjRpNUtNT3VPMm5IUGtYXy1xR3pWZHVKV3FDYnZBMW9fVlRva0tMekZvMWtFczhROEZjd1pVclFXYVU3WWZIRVNlSTFZaFRJejlVRFNRNnM": {
   "airline": "트리니티",
   "date": "2026-11-02",
@@ -490,12 +496,6 @@
   "date": "2026-11-17",
   "notified": false,
   "title": "제주항공, 수험생과 동반자 국내선 항공권 20% 할인"
- },
- "CBMia0FVX3lxTE5hYnl6TmlqWmQ0SGVVWDYyZk9QRkZHNHNOYlJ4c21GeXRCZldFWXc3Sk42QnJRbnFMS2FqejdhOE5MN2IzU1VBLTBQVEticE5HMWVMZUU0ZWtfVmFMek1CUC1US1hlYjNTRHJv": {
-  "airline": "에어프레미아",
-  "date": "2026-10-31",
-  "notified": false,
-  "title": "에어프레미아, 전 노선 블랙프라이데이 특가…최대 72% 할인"
  },
  "CBMia0FVX3lxTE5ralV6bmd5ZGNaYVdUTHJqdzBVQkFuY1lCQlAzaVFSMGVPRW9jRzJRQ2hBMC16TVJkTkZ1SGxNVzNqNGhLOGNoMm16S1AtcUV4MUcxU1J4b2poVHFhQlZlVjhjc1hMeG5QUExr": {
   "airline": "제주항공",
@@ -1102,12 +1102,6 @@
   "date": "2026-11-02",
   "notified": true,
   "title": "에어부산 부산~광저우 노선 신규 취항…3일부터 프로모션"
- },
- "CBMiekFVX3lxTE5fZ3NKMHV6NWZTR0lWbGZzR2lSOTJfUmozWTJnekZQc0pPYTk3WU1tSURRMk1KOThveWlPZ1hXYklfeVNXME93b3ZTNl8xTVk4NERrT2JOTXl6SkJVelBwZnlWNVEyVTdfZUhmTG9HblFBaVNxNlY3Q09B": {
-  "airline": "에어프레미아",
-  "date": "2026-10-31",
-  "notified": false,
-  "title": "에어프레미아, 전 노선 항공권 최대 72% 할인"
  },
  "CBMiekFVX3lxTFBvQ21HLXVWdUM1M3lWbWhEREUzRjFqb2FWVTZOeV9WUy1obmIxRk1abzI3Zmh4N1pxcWp5RHRGMkg2MmZmSjZ3MU44dXFaWEtwSzBvOU40SWxGMTdNMEJTOTNJSHN2azgwYU1LQThUS1phWFF2V01US3RB": {
   "airline": "제주항공",
